@@ -24,14 +24,7 @@ if($result->num_rows > 0){
       header("location: form.php");
  } 
 } 
-// if ($mysqli->query($sql) === true) {
-//     // $_SESSION['message'] = "Registeration successful! Added $username to the database!";
-//     header("location: home.php");
 
-// } 
-// else {
-//   $_SESSION['message'] = "User could not be added to the database!";
-// }
 
   } 
   else {

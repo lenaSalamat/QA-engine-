@@ -17,6 +17,7 @@ include 'admin.php'
 
 
  <?php
+ 
 $_SESSION['message'] = '';
 
 $mysqli = new mysqli('localhost' ,'root', '', 'answers');

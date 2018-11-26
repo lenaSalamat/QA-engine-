@@ -105,9 +105,11 @@ img {
 ::selection {
   background: #19547c;
 }
+
 input::-moz-selection {
   background: #037db6;
 }
+
 input::selection {
   background: #037db6;
 }

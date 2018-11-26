@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $_SESSION['username'] = $username;
 
 $result = $mysqli->query("SELECT * FROM users WHERE email='$email'") or die($mysqli->error());
+
 if($result->num_rows > 0){
   // $_SESSION['message'] = 'User with this email already exists!';
   header("location: login.php");

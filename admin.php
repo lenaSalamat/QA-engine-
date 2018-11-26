@@ -22,9 +22,3 @@ if ($mysqli->query($sql) === true) {
      
 ?>
 
-<!-- 
-<link rel="stylesheet" href="form.css" type="text/css">
-<form class="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
-<input type='text' name='answer' placeholder="Write your Answer">
-<input type="submit" value="Submit" name="register" class="btn btn-block btn-primary" />
-</form>  -->
